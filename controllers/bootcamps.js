@@ -30,7 +30,7 @@ exports.updateBootcamps = (req,res, next) =>{
             msg: `Show bootcamp ${req.params.id}`
         });
 }
-exports.getBootcamps = (req,res, next) =>{
+exports.deleteBootcamps = (req,res, next) =>{
     res
         .status(200)
         .json({
